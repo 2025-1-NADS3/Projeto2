@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FecaPayPlus</string>
+
+    <string name="disclaimer_del_acc">Esta ação é irreversível. Todos os seus dados serão apagados permanentemente e não poderão ser recuperados. Você tem certeza que deseja DELETAR sua conta? </string>
+</resources>

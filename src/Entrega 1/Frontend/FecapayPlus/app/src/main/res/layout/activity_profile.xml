@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewBackGround"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/double_ellipse" />
+
+    <TextView
+        android:id="@+id/titleProfileLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="83dp"
+        android:fontFamily="@font/kulim_park_bold"
+        android:text="Perfil"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBackGround"
+        app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/userProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seja bem vindo, Felipe"
+            android:fontFamily="@font/kulim_park_bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageViewBackGround"
+            app:layout_constraintVertical_bias="0.355" />
+
+    <Button
+        android:id="@+id/changePasswordCardBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar Senha"
+        android:textSize="20sp"
+        android:backgroundTint="@color/purple"
+        android:textColor="@color/white"
+        android:fontFamily="@font/kulim_park_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                style="@style/labelStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Senha atual:" />
+
+            <EditText
+                android:id="@+id/currentPasswordInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="21dp"
+                android:background="@drawable/custom_edittext"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/labelStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Nova senha" />
+
+            <EditText
+                android:id="@+id/newPasswordInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="21dp"
+                android:background="@drawable/custom_edittext"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/labelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Repetir nova senha" />
+
+            <EditText
+                android:id="@+id/confirmNewPasswordInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/errorPassword"
+                style="@style/labelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#f25050"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/changePasswordBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/strong_grey"
+                android:fontFamily="@font/kulim_park_bold"
+                android:text="Alterar Senha"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:enabled="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/changePasswordBackBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/kulim_park_light"
+                android:text="Voltar"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/logOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/kulim_park_bold"
+        android:text="Sair"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBackGround"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <Button
+        android:id="@+id/deleteAccountCardBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/kulim_park_bold"
+        android:text="DELETAR CONTA"
+        android:textColor="@color/red"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBackGround"
+        app:layout_constraintVertical_bias="0.935" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewDeleteAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="20dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="40sp"
+                android:fontFamily="@font/kulim_park_bold"
+                android:text="ATENÇÃO"
+                android:layout_marginBottom="32dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/kulim_park_light"
+                android:textAlignment="center"
+                android:layout_marginBottom="25dp"
+                android:text="@string/disclaimer_del_acc"/>
+
+            <Button
+                android:id="@+id/deleteAccountBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="DELETAR"
+                android:textSize="20sp"
+                android:fontFamily="@font/kulim_park_bold"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/red"
+                android:layout_marginBottom="32dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/deteleAccBackBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/kulim_park_light"
+                android:text="Voltar"
+                android:backgroundTint="@android:color/transparent"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
