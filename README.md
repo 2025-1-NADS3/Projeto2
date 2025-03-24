@@ -1,21 +1,32 @@
-# FECAP - Fundação de Comércio Álvares Penteado
+# FECAP - Fundação Escola de Comércio Álvares Penteado
 
 <p align="center">
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# FecaPay+
 
-## Nome do Grupo
+## Equipe Rocket
 
-## Integrantes: <a href="https://www.linkedin.com/in/felipeosantosojo/">Felipe Ojo</a>, <a href="https://www.linkedin.com/in/gustavocastro01/">Gustavo Castro</a>, <a href="https://www.linkedin.com/in/brosselindev/">João Pedro Brosselin</a>, <a href="https://www.linkedin.com/in/marcella-santana-b76883262/">Marcella Santana</a>, <a href="https://www.linkedin.com/in/thays-pontes-14663822b/">Thays Pontes</a>
+## Integrantes: 
+- [Felipe Oluwaseun Santos Ojo](https://www.linkedin.com/in/felipeosantosojo/)  
+- [Gustavo de Souza Castro](https://www.linkedin.com/in/gustavocastro01/)
+- [João Pedro Brosselin de Albuquerque Souza](https://www.linkedin.com/in/brosselindev//)
+- [Marcella Santana Gonçalves Diniz Rocha](https://www.linkedin.com/in/marcella-santana-b76883262/)  
+- [Thays Helyda da Silva Pontes](https://www.linkedin.com/in/thays-pontes-14663822b/)  
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: 
+- [Vincius Heltai Pacheco](https://www.linkedin.com/in/vheltai/)  
+- [Aimar Martins Lopes](https://www.linkedin.com/in/aimarlopes/)
+- [Francisco de Souza Escobar](https://www.linkedin.com/in/francisco-escobar/)
+- [Jefferson de Oliveira Silva](https://www.linkedin.com/in/jefferson-o-silva/)
+- [Victor Bruno Alexander Rosetti de Quiroz](https://www.linkedin.com/in/victorbarq/)  
 
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="https://i.imgur.com/xPo3SaP.jpeg" alt="NOME DO JOGO" border="0">
+  
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
@@ -98,7 +109,7 @@ Coloque código do prompt de comnando se for necessário
 ```
 
 ## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2025-1-NADS3/Projeto2">FecaPay+</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/felipeosantosojo/, https://www.linkedin.com/in/gustavocastro01/, https://www.linkedin.com/in/brosselindev/, https://www.linkedin.com/in/marcella-santana-b76883262/, https://www.linkedin.com/in/thays-pontes-14663822b/, https://www.fecap.br/">Felipe Oluwaseun Santos Ojo, Gustavo de Souza Castro, João Pedro Brosselin de Albuquerque Souza, Marcella Santana Gonçalves Diniz Rocha, Thays Helyda da Silva Pontes, FECAP</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 ## 🎓 Referências
 
