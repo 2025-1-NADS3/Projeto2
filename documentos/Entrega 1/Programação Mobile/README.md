@@ -1,4 +1,4 @@
-## Entrega 1
+## Entrega 1 - Programação Mobile 
 
 Para acessar a pasta com a primeira entrega basta seguir o seguinte caminho.
 
@@ -23,19 +23,18 @@ git clone https://github.com/2025-1-NADS3/Projeto2
 
 Após isso, todo o repositório será clonado.
 
-Abra o AndroidStudio
+- Abra o AndroidStudio
 
-`
-Open
-`
+
+- Clique em **Open**
 
 
 ![](https://i.imgur.com/57QFNyH.png)
 
 E procure pelo diretório onde você clonou o repositório.
 
-*Ex:* `...\Área de Trabalho\Projeto2\src\Entrega 1\Frontend\FecapayPlus`
+*Ex: `...\Área de Trabalho\Projeto2\src\Entrega 1\Frontend\FecapayPlus`*
 
 ![](https://i.imgur.com/YqNwB6O.png)
 
-Abra a raíz do projeto, onde há o ícone do android seguido do título FecapayPlus, clique em **Ok** e o projeto irá abrir.
+Selecione a pasta raíz do projeto, onde há o ícone do android com o título FecapayPlus, clique em **Ok** e o projeto irá abrir.
