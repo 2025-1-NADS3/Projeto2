@@ -14,7 +14,7 @@ Na primeira entrega de **Programação Mobile**, foram desenvolvidas 3 telas par
 
 - Tela de Login
   
-  Nela o usuário insere o seu `RA e senha` para realizar o login no aplicativo, ou seguir para a página de cadastro. Ela conta com validação do preenchimento dos campos e verificação dos mesmos para liberar o botão de login e permitir o acesso.
+  Nela o usuário insere o seu `RA e senha` para realizar o login no aplicativo, ou clicar em um botão de cadastro para seguir para a página. Ela conta com validação do preenchimento dos campos e verificação dos mesmos para liberar o botão de login e permitir o acesso.
 
 - Tela de cadastro
 
