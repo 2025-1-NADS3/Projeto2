@@ -15,6 +15,11 @@ Na primeira entrega referente a matéria de **Sistemas Operacionais e Arquitetur
 ### Rotas
 
 - **userSignup**
+
+```
+POST /api/cadastro
+```
+
   - Ela permite que seja feito o cadastro de um usuário inserindo no banco de dados os parâmetros:
     
     *RA*
@@ -27,7 +32,13 @@ Na primeira entrega referente a matéria de **Sistemas Operacionais e Arquitetur
     
     *Senha*
 
+
 - **authLogin**
+
+```
+POST /api/entrar
+```
+
   - Ela permite que o usário acesse a conta fazendo a leitura dos dados dados enviados pelo Frontend e validadando-os com os parâmetros registrados:
     
     *RA*
@@ -35,6 +46,11 @@ Na primeira entrega referente a matéria de **Sistemas Operacionais e Arquitetur
     *Senha*
 
 - **userChangePassword**
+
+```
+PATCH /api/alterar-senha/:ra
+```
+
   - Ela permite que o usário altere a sua senha atualizando os dados registrados:
     
     *Senha atual*
@@ -42,18 +58,33 @@ Na primeira entrega referente a matéria de **Sistemas Operacionais e Arquitetur
     *Nova senha*
 
 - **deleteUser**
-  - Ela permite que seja os dados do usuário sejam deletados do banco de dados:
+
+```
+DELETE /api/deletar/:ra
+```
+
+  - Ela permite que os dados do usuário sejam deletados do banco de dados:
     
     *RA*
 
 Rotas auxíliares para encontrar os usuários:
 
   - **getUserByRa**
+
+```
+GET /api/user/:ra
+```
+
     - Permite a busca de um usuário no banco de dados com base o RA recebido como parâmetro:
       
       *RA*
 
   - **getUsers**
+
+```
+GET /api/users
+```
+
     - Permite extrair todos os usuários cadastrados no banco de dados.
 
 ## Acessando o projeto
