@@ -20,7 +20,7 @@ Na primeira entrega referente a matéria de **Sistemas Operacionais e Arquitetur
 POST /api/cadastro
 ```
 
-  - Ela permite que seja feito o cadastro de um usuário inserindo no banco de dados os parâmetros:
+Ela permite que seja feito o cadastro de um usuário inserindo no banco de dados os parâmetros:
     
     *RA*
     
@@ -39,7 +39,7 @@ POST /api/cadastro
 POST /api/entrar
 ```
 
-  - Ela permite que o usário acesse a conta fazendo a leitura dos dados dados enviados pelo Frontend e validadando-os com os parâmetros registrados:
+Ela permite que o usário acesse a conta fazendo a leitura dos dados dados enviados pelo Frontend e validadando-os com os parâmetros registrados:
     
     *RA*
     
@@ -51,7 +51,7 @@ POST /api/entrar
 PATCH /api/alterar-senha/:ra
 ```
 
-  - Ela permite que o usário altere a sua senha atualizando os dados registrados:
+Ela permite que o usário altere a sua senha atualizando os dados registrados:
     
     *Senha atual*
     
@@ -63,7 +63,7 @@ PATCH /api/alterar-senha/:ra
 DELETE /api/deletar/:ra
 ```
 
-  - Ela permite que os dados do usuário sejam deletados do banco de dados:
+Ela permite que os dados do usuário sejam deletados do banco de dados:
     
     *RA*
 
@@ -75,7 +75,7 @@ Rotas auxíliares para encontrar os usuários:
 GET /api/user/:ra
 ```
 
-    - Permite a busca de um usuário no banco de dados com base o RA recebido como parâmetro:
+Permite a busca de um usuário no banco de dados com base o RA recebido como parâmetro:
       
       *RA*
 
@@ -85,7 +85,7 @@ GET /api/user/:ra
 GET /api/users
 ```
 
-    - Permite extrair todos os usuários cadastrados no banco de dados.
+Permite extrair todos os usuários cadastrados no banco de dados.
 
 ## Acessando o projeto
 
