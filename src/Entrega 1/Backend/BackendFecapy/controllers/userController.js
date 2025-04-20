@@ -1,40 +1,38 @@
 const fecapayDB = require('../db/db.JS')
 const User = require('../models/User')
 const bcrypt = require('bcrypt')
+const { gerarBoletos } = require('../services/boletoService')
+
 
 const saltRounds = 10
 
-
-exports.userSignUp = (req, res) => {
+exports.userSignUp = async (req, res) => {
     const {nome, sobrenome, ra, email, senha} = req.body
     
+    try{
+        const result = await fecapayDB.query(`SELECT * FROM usuarios WHERE ra = $1 OR email = $2`, [ra, email])
 
-    fecapayDB.query(`SELECT * FROM usuarios WHERE ra = $1 OR email = $2`, [ra, email], (error, result) =>{
-        if(error){
-            res.status(500).send(error)
-            return
+        if(result.rows.length != 0){
+            return res.status(400).json({message: "Usuário já cadastrado"})
         }
-        if(result.rows.length === 0){
-            bcrypt.hash(senha, saltRounds, (error, hash) =>{
-                if(error){
-                    res.status(501).send(error)
-                    return
-                }
-                const user = new User(nome, sobrenome, ra, email, hash)
-                fecapayDB.query(user.getInsertQuery(), user.getInsertValues(),
-                (error) =>{
-                    if(error){
-                        res.status(502).send(error)
-                        return
-                    }
-                    return res.status(200).send({message: "Cadastrado com sucesso."})
-                }
-            )
-            })
-        }else{
-            return res.status(400).send({message: "R.A ou E-mail já cadastrados."})
+
+        const hash = await bcrypt.hash(senha, saltRounds)
+
+        const user = new User(nome, sobrenome, ra, email, hash)
+        await fecapayDB.query(user.getInsertQuery(), user.getInsertValues())
+
+        try{
+            await gerarBoletos(ra)
+        }catch(error){
+            console.error("Erro ao gerar boleto, ", error)
+            return res.status(500).json({message: "Usuário criado sem boletos."})
         }
-    })
+
+        return res.status(200).json({message: "Cadastrado com sucesso."})
+    }catch(error){
+        console.error(error)
+        return res.status(500).json({message: "Erro interno."})
+    }
 }
 
 exports.userChangePassword = (req, res) => {
@@ -50,7 +48,7 @@ exports.userChangePassword = (req, res) => {
                 return res.status(401).json({message:"Senha incorreta."})
             }
 
-            const hash = bcrypt.hashSync(novaSenha, 10)
+            const hash = bcrypt.hashSync(novaSenha, saltRounds)
             fecapayDB.query(`UPDATE usuarios SET senha = $1 WHERE ra = $2`, [hash, ra], (error) =>{
                 if(error){
                     return res.status(500).json({message: "Erro ao alterar senha."})

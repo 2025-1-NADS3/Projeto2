@@ -19,15 +19,10 @@ exports.authLogin = (req, res) =>{
                 const user = result.rows[0]
 
                 if(match){
-                    const token = jwt.sign(
-                        {ra: user.ra},
-                        SECRET_KEY,
-                        { expiresIn: '2h'}
-                    )
                     return res.status(200).json({
                         message: "Login realizado.", 
-                        token, 
-                        ra: user.ra
+                        ra: user.ra,
+                        nome: user.nome
                     })
                 }else{
                     return res.status(401).json({message: "Senha incorreta."})
