@@ -25,7 +25,7 @@
 ## Descrição
 
 <p align="center">
-<img src="https://i.imgur.com/xPo3SaP.jpeg" alt="NOME DO JOGO" border="0">
+<img src="https://i.imgur.com/RKqzRKQ.png" alt="NOME DO JOGO" border="0">
   
  O FecaPay+ é um aplicativo inovador desenvolvido para facilitar a gestão financeira e acadêmica dos estudantes da FECAP, em parceria com a NEON. Criado para oferecer mais praticidade no dia a dia universitário, o app centraliza diversas funcionalidades em um só lugar, permitindo que os alunos tenham mais controle sobre seus gastos e compromissos acadêmicos.
 <br></br>
@@ -81,6 +81,9 @@ Há também 4 pastas que seguem da seguinte forma:
 * Figma
 
 * LucidChart
+
+* Azure
+
 
 ## 📋 Pré-requisitos
 
