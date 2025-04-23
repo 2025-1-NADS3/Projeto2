@@ -3,7 +3,7 @@
 Para acessar a pasta com a segunda entrega basta seguir o seguinte caminho.
 
 `
-src > Entrega 1 > Frontend > FecapayPlus
+src > Entrega 2 > Frontend > FecapayPlus
 `
 
 Nesta pasta estará todo o conteúdo relacionado ao Frontend do projeto, referente a segunda entrega.
@@ -46,7 +46,7 @@ Após isso, todo o repositório será clonado.
 
 E procure pelo diretório onde você clonou o repositório.
 
-*Ex: `...\Área de Trabalho\Projeto2\src\Entrega 1\Frontend\FecapayPlus`*
+*Ex: `...\Área de Trabalho\Projeto2\src\Entrega 2\Frontend\FecapayPlus`*
 
 ![](https://i.imgur.com/YqNwB6O.png)
 
