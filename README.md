@@ -25,18 +25,17 @@
 ## Descrição
 
 <p align="center">
-<img src="https://i.imgur.com/xPo3SaP.jpeg" alt="NOME DO JOGO" border="0">
+<img src="https://i.imgur.com/RKqzRKQ.png" alt="NOME DO JOGO" border="0">
   
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
-</p>
-
-
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+ O FecaPay+ é um aplicativo inovador desenvolvido para facilitar a gestão financeira e acadêmica dos estudantes da FECAP, em parceria com a NEON. Criado para oferecer mais praticidade no dia a dia universitário, o app centraliza diversas funcionalidades em um só lugar, permitindo que os alunos tenham mais controle sobre seus gastos e compromissos acadêmicos.
+<br></br>
+Com o FecaPay+, os usuários podem:
+- Consultar e pagar boletos diretamente pela plataforma, acompanhando seus pagamentos de maneira organizada.
+- Gerenciar gastos acadêmicos, com um sistema de monitoramento que facilita diretamente na administração financeira.
+- Visualizar o cardápio das cantinas da faculdade e reservar refeições antecipadamente.
+- Organizar serviços e dependências da instituição, facilitando seu acesso.
+<br></br>
+Com essa praticidade, a rotina acadêmica se torna mais fluida, permitindo que os alunos foquem no que realmente importa: seus estudos e experiências universitárias.
 
 ## 🛠 Estrutura de pastas
 
@@ -69,7 +68,36 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 Instalação
+## 🖥 Tecnologias utilizadas 
+
+* JavaScript
+
+* PostgreSQL
+
+* Postman
+
+* StoryTribe
+
+* Figma
+
+* LucidChart
+
+* Azure
+
+
+## 📋 Pré-requisitos
+
+Antes de começar o projeto, você deve ter instalado:
+
+- [Android Studio](https://developer.android.com/studio) para o desenvolvimento do aplicativo.
+- Um banco de dados PostgreSQL:
+  - Caso utilize localmente, baixe e instale o [PostgreSQL](https://www.postgresql.org/download/).
+  - Caso utilize um banco online, tenha as credenciais de acesso configuradas.
+- [Postman](https://www.postman.com/) para testar a API e realizar requisições ao banco de dados.
+- Um editor de código como [VSCode](https://code.visualstudio.com/) (opcional, mas recomendado para editar o backend).
+
+
+## 🛠 Instalação e Configuração
 
 <b>Android:</b>
 
@@ -93,20 +121,6 @@ Coloque código do prompt de comnando se for necessário
 
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
-## 💻 Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 📋 Licença/License
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2025-1-NADS3/Projeto2">FecaPay+</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/felipeosantosojo/, https://www.linkedin.com/in/gustavocastro01/, https://www.linkedin.com/in/brosselindev/, https://www.linkedin.com/in/marcella-santana-b76883262/, https://www.linkedin.com/in/thays-pontes-14663822b/, https://www.fecap.br/">Felipe Oluwaseun Santos Ojo, Gustavo de Souza Castro, João Pedro Brosselin de Albuquerque Souza, Marcella Santana Gonçalves Diniz Rocha, Thays Helyda da Silva Pontes, FECAP</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
