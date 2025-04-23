@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Fecapay+</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string name="txtRA">RA: </string>
+    <string name="txtSenha">Senha: </string>
+    <string name="txtNome"></string>
+    <string name="txtSobrenome"></string>
+    <string name="txtEmail"></string>
+    <string name="txtEntrar">Entrar</string>
+    <string name="txtCadastrar">Cadastrar</string>
+    <string name="titleLogin">Login</string>
+    <string name="titleCadastrar">Cadastrar</string>
+    <string name="btnCadastreSe">Cadastre-se</string>
+    <string name="txtLoginError">Error</string>
+
+
+    <string name="titlePerfil">Perfil</string>
+    <string name="labelSenhaAtual">Senha atual:</string>
+    <string name="labelNovaSenha">Nova senha: </string>
+    <string name="labelConfirmarSenha">Confirmar senha: </string>
+    <string name="btnAlterarSenha">Alterar senha</string>
+    <string name="btnVoltar">Voltar</string>
+
+
+
+    <string name="btnDeletarConta">DELETAR CONTA</string>
+    <string name="infoDeletarConta">ATENÇÃO!</string>
+    <string name="disclaimer_del_acc">Esta ação é irreversível. Todos os seus dados serão apagados permanentemente e não poderão ser recuperados. Você tem certeza que deseja DELETAR sua conta? </string>
+    <string name="btnConfirmarDeletar">DELETAR</string>
+
+    <string name="titleCadastro">Perfil</string>
+    <string name="labelNome">Nome:</string>
+    <string name="labelSobrenome">Sobrenome: </string>
+    <string name="labelEmail">E-mail: </string>
+    <string name="labelSenhaErro">Mínimo 8 caracteres.</string>
+
+
+
+</resources>
