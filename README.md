@@ -35,7 +35,7 @@ Com o FecaPay+, os usuários podem:
 - Visualizar o cardápio das cantinas da faculdade e reservar refeições antecipadamente.
 - Organizar serviços e dependências da instituição, facilitando seu acesso.
 <br></br>
-Com essa praticidade, a rotina acadêmica se torna mais fluida, permitindo que os alunos foquem no que realmente importa: seus estudos e experiências universitárias.
+Com essa praticidade, a rotina acadêmica se torna mais fluida ao permitir que os alunos foquem no que realmente importa: seus estudos e experiências universitárias.
 
 ## 🛠 Estrutura de pastas
 
@@ -72,6 +72,8 @@ Há também 4 pastas que seguem da seguinte forma:
 
 * JavaScript
 
+* Java
+
 * PostgreSQL
 
 * Postman
@@ -82,8 +84,9 @@ Há também 4 pastas que seguem da seguinte forma:
 
 * LucidChart
 
-* Azure
+* Azure Microsoft
 
+* Node.js
 
 ## 📋 Pré-requisitos
 
@@ -129,9 +132,8 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://chooser-beta.creativecommons.org/>
-4. <https://freesound.org/>
-5. <https://www.toptal.com/developers/gitignore>
-6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. <https://source.android.com/docs>
+2. <https://nodejs.org/docs/latest/api>
+3. <https://expressjs.com>
+4. <https://neon.com.br/>
+5. <https://nubank.com.br/>
