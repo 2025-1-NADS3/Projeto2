@@ -39,20 +39,29 @@ Com o FecaPay+, os usuários podem:
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+📁 Raiz  
+├── 📁 documentos  
+│   ├── 📁 Entrega 1  
+│   │   ├── 📁 Programação Mobile  
+│   │   ├── 📁 Sistemas Operacionais e Arquiteturas Cloud Native  
+│   │   ├── 📁 Testes e Qualidade de Software (DevOps)  
+│   │   └── 📁 User Experience Digital  
+│   ├── 📁 Entrega 2  
+│   │   ├── 📁 Programação Mobile  
+│   │   ├── 📁 Sistemas Operacionais e Arquiteturas Cloud Native  
+│   │   ├── 📁 Testes e Qualidade de Software (DevOps)  
+│   │   └── 📁 User Experience Digital  
+│   └── 📁 Entrega 3  
+│       ├── 📁 Programação Mobile  
+│       ├── 📁 Sistemas Operacionais e Arquiteturas Cloud Native  
+│       ├── 📁 Testes e Qualidade de Software (DevOps)  
+│       └── 📁 User Experience Digital  
+├── 📁 imagens  
+└── 📁 src  
+│   ├── 📁 Entrega 1  
+│   ├── 📁 Entrega 2  
+│   └── 📁 Entrega 3
+└──📄README.md
 
 A pasta raiz contem dois arquivos que devem ser alterados:
 
