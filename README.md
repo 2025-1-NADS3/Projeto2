@@ -57,11 +57,11 @@ Com o FecaPay+, os usuários podem:
 │       ├── 📁 Testes e Qualidade de Software (DevOps)  
 │       └── 📁 User Experience Digital  
 ├── 📁 imagens  
-└── 📁 src  
+├── 📁 src  
 │   ├── 📁 Entrega 1  
 │   ├── 📁 Entrega 2  
-│   └── 📁 Entrega 3
-└──📄README.md
+│   └── 📁 Entrega 3  
+└── 📄 README.md
 
 A pasta raiz contem dois arquivos que devem ser alterados:
 
