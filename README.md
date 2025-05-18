@@ -58,11 +58,9 @@ A pasta raiz contem dois arquivos que devem ser alterados:
 
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
-Há também 4 pastas que seguem da seguinte forma:
+Há também 3 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
 
 <b>imagens</b>: Imagens do sistema
 
@@ -70,23 +68,33 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🖥 Tecnologias utilizadas 
 
-* JavaScript
+<b>Linguagens da programação</b>
 
+* JavaScript
 * Java
+
+<b>Banco de dados</b>
 
 * PostgreSQL
 
+<b>Testes e requisições da API</b>
+
 * Postman
 
-* StoryTribe
-
-* Figma
-
-* LucidChart
-
-* Azure Microsoft
+<b>Frameworks e bibliotecas back-end</b>
 
 * Node.js
+* Express.js
+  
+<b>Design e modelagem de planejamento</b>
+
+* Figma
+* LucidChart
+* StoryTribe
+
+<b>Hospedagem</b>
+
+* Azure Microsoft
 
 ## 📋 Pré-requisitos
 
