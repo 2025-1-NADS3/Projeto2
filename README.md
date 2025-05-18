@@ -34,8 +34,8 @@ Com o FecaPay+, os usuários podem:
 - Gerenciar gastos acadêmicos, com um sistema de monitoramento que facilita diretamente na administração financeira.
 - Visualizar o cardápio das cantinas da faculdade e reservar refeições antecipadamente.
 - Organizar serviços e dependências da instituição, facilitando seu acesso.
-<br></br>
-Com essa praticidade, a rotina acadêmica se torna mais fluida ao permitir que os alunos foquem no que realmente importa: seus estudos e experiências universitárias.
+
+ Com essa praticidade, a rotina acadêmica se torna mais fluida ao permitir que os alunos foquem no que realmente importa: seus estudos e experiências universitárias.
 
 ## 🛠 Estrutura de pastas
 
@@ -111,28 +111,80 @@ Antes de começar o projeto, você deve ter instalado:
 
 ## 🛠 Instalação e Configuração
 
-<b>Android:</b>
+Este projeto consiste em uma aplicação web com foco em operações financeiras como consulta de saldo e geração de boletos, dividida entre frontend e backend. A estrutura atual prioriza o aprofundamento na explicação da API (backend) durante a instalação e configuração, pois o frontend já está completo, disponível no código-fonte (pasta 'src'), e por ter sido desenvolvido no Android Studio, segue um padrão que facilita sua adaptação e execução em diferentes máquinas, além do backend ser uma parte que exige maior refinamento no ambiente de desenvolvimento.
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+### 1. Criação do diretório do projeto
 
-```sh
-Coloque código do prompt de comnando se for necessário
+Ao clonar o repositório presente no Github do projeto, note que o código-fonte está presente na pasta 'src', enquanto a documentação complementar, como detalhes específicos sobre modelos de dados, rotas e estruturas estará presente em 'documentos'. Levando isso em consideração, extraia ou mova os arquivos da pasta 'src' para dentro do diretório raiz do projeto. A estrutura incial deverá seguir este padrão:
+```bash
+|--> fecaPay
+ |--> backend
+ |--> frontend
+ .gitignore
+ package.json
+ package-lock.json
+ server.js
 ```
 
-<b>Windows:</b>
+### 2. Inicializando o backend
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+O backend está estruturado em:
+* routes/ - Define as rotas da API.
+* controllers/ - Gerencia fluxo de dados.
+* services/ - Comunicação com o banco.
+* models/ - Define a estrutura dos objetos utilizados.
+* db/ - Contém a configuração da conexão com o banco de dados.
 
-```sh
-Coloque código do prompt de comnando se for necessário
+Com a estrutura de pastas já pronta, acesse a pasta 'backend' e instale as dependências necessárias a partir do seguinte comando:
+```bash
+cd backend
+npm install
 ```
 
-<b>HTML:</b>
+E então, com as dependências necessárias já instaladas, inicie o servidor local:
+```bash
+npm start
+```
 
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+### 3. Configuração do banco de dados (PostgreSQL)
+
+Para configurar corretamente o banco de dados usado no projeto, envolve:
+1. A instalação do PostgreSQL.
+2. Criação de um banco de dados (nome de exemplo para a explicação: 'fecapaydb').
+3. Execução de scripts de tabelas criadas presente na pasta 'documentos/'.
+
+Importante ressaltar que se deve ter o registro das credenciais do banco de dados no arquivo de conexão ao banco, 'db.js'.
+```bash
+const { Pool } = require('pg');
+
+const fecapayDB = new Pool({
+  user: 'usuariox',
+  host: 'localhost',
+  database: 'fecapaydb',
+  password: 'senhay',
+  port: 1234
+});
+
+module.exports = fecapayDB;
+```
+
+### 4. Teste da API com o Postman
+
+As rotas estão divididas em:
+* userRoutes.js - Cadastro, login e manipulação de usuários.
+* balanceRoutes.js - Consulta para saldo.
+* boletosRoutes.js - Geração e pagamento de boletos.
+
+Utilizando o Postman, é possível enviar requisições de cada rota. A documentação necessária para cada uma delas varia, documentada na pasta 'documentos/'.
+
+### 5. Hospedagem na nuvem com o Azure
+
+Para disponibilizar a API online, foi usado o Azure Microsoft (Azure CLI). Ao instalar o programa, e realizar o login deve-se:
+1. Criar um App Service.
+2. Realizar um deploy do código por meio do Github.
+3. Configurar credenciais de ambiente pelo portal do Azure.
+
+Com isso, a API pode ser acessada pela internet, e o projeto passa a utilizar infraestrutura em nuvem.
 
 ## 🖼 Figma do projeto
 
