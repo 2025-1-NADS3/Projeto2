@@ -71,7 +71,7 @@ Há também 3 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
 
-<b>imagens</b>: Imagens do sistema
+<b>imagens</b>: Imagens do sistema.
 
 <b>src</b>: Pasta que contém o código fonte.
 
