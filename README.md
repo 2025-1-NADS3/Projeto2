@@ -15,7 +15,7 @@
 - [Marcella Santana Gonçalves Diniz Rocha](https://www.linkedin.com/in/marcella-santana-b76883262/)  
 - [Thays Helyda da Silva Pontes](https://www.linkedin.com/in/thays-pontes-14663822b/)  
 
-## Professores Orientadores: 
+## Professores orientadores: 
 - [Vincius Heltai Pacheco](https://www.linkedin.com/in/vheltai/)  
 - [Aimar Martins Lopes](https://www.linkedin.com/in/aimarlopes/)
 - [Francisco de Souza Escobar](https://www.linkedin.com/in/francisco-escobar/)
@@ -98,6 +98,7 @@ Antes de começar o projeto, você deve ter instalado:
   - Caso utilize um banco online, tenha as credenciais de acesso configuradas.
 - [Postman](https://www.postman.com/) para testar a API e realizar requisições ao banco de dados.
 - Um editor de código como [VSCode](https://code.visualstudio.com/) (opcional, mas recomendado para editar o backend).
+- [Azure Microsoft](https://azure.microsoft.com/) para hospedar.
 
 
 ## 🛠 Instalação e Configuração
@@ -124,6 +125,11 @@ Coloque código do prompt de comnando se for necessário
 
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+
+## 🖼 Figma do projeto
+
+<p><a href="https://www.figma.com/design/3EUICH2gmXXtA9upUI7JB2/Mobile-Project?node-id=0-1&p=f" target="_blank">Link das telas prototipadas no Figma</a></p>
+<p><a href="https://www.figma.com/design/I34gstvHDYJQAMmjKTVHtq/Prot%C3%B3tipo-FecaPay--Mockup?node-id=2-2" target="_blank">Link do Mockup</a></p>
 
 ## 🗃 Histórico de lançamentos
 A cada atualização os detalhes devem ser lançados aqui.
