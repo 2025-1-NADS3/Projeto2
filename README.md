@@ -125,6 +125,58 @@ Coloque código do prompt de comnando se for necessário
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
+## 🗃 Histórico de lançamentos
+A cada atualização os detalhes devem ser lançados aqui.
+* 0.3.1 - 16/05/2025
+  * Demonstração de produtos disponibilizados na faculdade inserida.
+  * Banner da apresentação concluído.
+  * Último requerimento do relatório de UX.
+* 0.3.0 - 14/05/2025
+  * Funcionalidades do app funcionando.
+  * Tela de adição de novo crédito.
+* 0.2.4 - 22/04/2025
+  * Testes realizados.
+  * Funcionalidade de crédito implementada.
+  * Função Pagar Boleto completa.
+* 0.2.3 - 21/04/2025
+  * Menu feito.
+  * Página principal (Home) feita.
+* 0.2.2 - 16/04/2025
+  * Banco de dados na Azure.
+* 0.2.1 - 11/04/2025
+  * Testes unitários e testes de integração a serem feitos definidos.
+  * Mockup realizado.
+* 0.2.0 - 04/04/2025
+  * Diagrama entidade-relacionamento definindo principais funcionalidades feito.
+* 0.1.7 - 24/03/2025
+  * Diagrama do processo de qualidade realizado.
+  * Storyboard realizado.
+  * Fluxograma de processos realizado.
+  * Figma do projeto e telas prototipadas feitos.
+  * Tela de perfil implementada ao projeto.
+  * Rotas de login, cadastro, autenticação e info realizadas.
+* 0.1.6 - 22/03/2025
+  * Backend do projeto concluído.
+  * Ligação do backend com o frontend determinada, junto do banco de dados.
+* 0.1.5 - 18/03/2025
+  * Frontend de login e cadastro do app realizados.
+  * Começo da comunicação do app com o banco de dados.
+* 0.1.4 - 16/03/2025
+  * Primeira logo do projeto definida.
+  * Primeiras telas a serem prototipadas no figma.    
+* 0.1.3 - 02/03/2025
+  * Primeiro esboço do Wireframe do projeto.
+  * Definição da principal paleta de cores. 
+* 0.1.2 - 26/02/2025.
+  * Entrevista com o público-alvo do projeto.
+  * Criação da persona.
+  * Começo do banco de dados PostgreSQL.
+  * Jornada do usuário realizada.
+* 0.1.1 - 12/02/2025.
+  * Crazy Eights realizado. 
+* 0.1.0 - 10/02/2025.
+  * Início do projeto. 
+
 ## 📋 Licença/License
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2025-1-NADS3/Projeto2">FecaPay+</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/felipeosantosojo/, https://www.linkedin.com/in/gustavocastro01/, https://www.linkedin.com/in/brosselindev/, https://www.linkedin.com/in/marcella-santana-b76883262/, https://www.linkedin.com/in/thays-pontes-14663822b/, https://www.fecap.br/">Felipe Oluwaseun Santos Ojo, Gustavo de Souza Castro, João Pedro Brosselin de Albuquerque Souza, Marcella Santana Gonçalves Diniz Rocha, Thays Helyda da Silva Pontes, FECAP</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
