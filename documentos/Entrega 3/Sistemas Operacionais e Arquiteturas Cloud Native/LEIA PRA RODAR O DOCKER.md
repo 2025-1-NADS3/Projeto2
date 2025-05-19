@@ -13,6 +13,7 @@ Este projeto demonstra a configuração de um ambiente Node.js utilizando Docker
 
 ```bash
 cd nodeJS-Docker
+```
 
 ```bash
 docker compose build
