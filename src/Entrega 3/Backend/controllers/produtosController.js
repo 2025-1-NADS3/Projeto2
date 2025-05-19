@@ -11,13 +11,13 @@ exports.getProductsBySection = async(req, res) =>{
     try{
         const itens = await produtoService.getProducts(loja)
         if (!itens || itens.length === 0) {
-            return res.status(404).json({ message: "Nenhum produto encontrado na seção especificada." });
+            return res.status(404).json({ message: "Nenhum produto encontrado na seção especificada." })
         }
 
-        return res.status(200).json({ produtos: itens });
+        return res.status(200).json({ produtos: itens })
 
     }catch(error){
-        console.error("Erro ao obter produtos:", error);
-        return res.status(500).json({ message: "Erro interno no servidor." });
+        console.error("Erro ao obter produtos:", error)
+        return res.status(500).json({ message: "Erro interno no servidor." })
     }
 }

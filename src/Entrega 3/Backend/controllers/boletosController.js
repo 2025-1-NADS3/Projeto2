@@ -1,6 +1,7 @@
 const fecapayDB = require('../db/db.js')
 const boletoService = require('../services/boletoService.js')
 const userService = require('../services/UserService.js')
+const transactionService = require('../services/transactionService.js')
 
 exports.getBoletos = async(req, res) =>{
     const ra = req.params.ra
@@ -48,6 +49,7 @@ exports.pagarBoleto = async (req, res) => {
 
         await boletoService.atualizarStatusBoleto(boleto_id)
         await userService.atualizarSaldo(ra, novoSaldo)
+        await transactionService.insertTransaction(ra, "BOLETO", boleto.valor, new Date())
 
         return res.status(200).json({ message: "Boleto pago com sucesso.", novoSaldo })
     } catch (error) {

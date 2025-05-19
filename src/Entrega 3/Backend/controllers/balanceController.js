@@ -1,5 +1,6 @@
 const fecapayDB = require('../db/db.js')
 const userService = require('../services/UserService.js')
+const transactionService = require('../services/transactionService.js')
 
 exports.getBalance = async (req, res) =>{
     const ra = req.params.ra
@@ -35,6 +36,8 @@ exports.addBalance = async (req, res) =>{
         const novoSaldo = parseFloat(saldoAtual) + parseFloat(saldo)
         
         await userService.atualizarSaldo(ra, novoSaldo)
+        await transactionService.insertTransaction(ra, "RECARGA", saldo, new Date())
+    
 
         return res.status(200).json({message: "Saldo adicionado com sucesso.", novoSaldo})
     }catch(error){
