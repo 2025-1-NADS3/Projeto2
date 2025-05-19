@@ -63,11 +63,9 @@ Com o FecaPay+, os usuários podem:
 │   └── 📁 Entrega 3  
 └── 📄 README.md
 
-A pasta raiz contem dois arquivos que devem ser alterados:
-
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
-Há também 3 pastas que seguem da seguinte forma:
+Há 3 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
 
@@ -202,6 +200,8 @@ Com isso, a API pode ser acessada pela internet, e o projeto passa a utilizar in
 
 ## 🗃 Histórico de lançamentos
 A cada atualização os detalhes devem ser lançados aqui.
+* 0.3.2 - 18/05/2025
+  * Entrega final do projeto.
 * 0.3.1 - 16/05/2025
   * Demonstração de produtos disponibilizados na faculdade inserida.
   * Banner da apresentação concluído.
