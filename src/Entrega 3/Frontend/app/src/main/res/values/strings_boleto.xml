@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titleBoleto">Boletos</string>
+    <string name="titlePagarBoleto">Valor do boleto:</string>
+
+    <string name="txtBoletoId">ID:</string>
+    <string name="txtBoletoStatus">Status: </string>
+    <string name="txtBoletoData">Data: </string>
+    <string name="txtBoletoVancimento">Vencimento: </string>
+    <string name="txtBoletoValor">Valor</string>
+    <string name="txtBoletoCodigo">Código</string>
+    <string name="txtBtnPagar">Pagar</string>
+
+    <string name="txtBtnPagarSaldo">Pagar com saldo</string>
+    <string name="txtBtnPagarMetos">Outro método</string>
+    <string name="txtInfoBoletoCard">Deseja utilizar o seu saldo para pagar este boleto?</string>
+    <string name="txtBtnConfirmarPagamento">Confirmar pagamento</string>
+    <string name="txtProsseguir">Sim</string>
+    <string name="txtAtencao">Pagar com saldo</string>
+</resources>

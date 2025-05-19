@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogGerarPix">Gerar QR Code Pix?</string>
+    <string name="dialogDescricao">Deseja gerar o QR Code para pagamento via Pix?</string>
+    <string name="dialogBtnCancelar">Cancelar</string>
+    <string name="dialogBtnGerar">Gerar</string>
+    <string name="dialogConfirmarPagamento">Confirmar Pagamento</string>
+    <string name="dialogPergunta">Você já realizou o pagamento via Pix?</string>
+    <string name="dialogBtnSim">Sim</string>
+    <string name="dialogBtnNao">Ainda não</string>
+    <string name="dialogTitleConfirmar">Confirmar Compra</string>
+    <string name="dialogBtnConfirmar">Confirmar</string>
+    <string name="dialogBtnNegar">Cancelar</string>
+
+</resources>

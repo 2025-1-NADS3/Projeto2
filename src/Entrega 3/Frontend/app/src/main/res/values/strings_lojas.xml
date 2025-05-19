@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtTitleCantina">Cardápio</string>
+    <string name="txtTitlePapelaria">Papelaria</string>
+    <string name="txtTitleLivraria">Livraria</string>
+    <string name="txtTitleAtletica">Atlética</string>
+    <string name="btnDetalhes">Detalhes</string>
+</resources>
