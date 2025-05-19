@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="nomeProdutoCard">Nome do Produto</string>
-    <string name="itemProdutoPreco">R$ 99,99</string>
-    <string name="itemProdutoQuantidade">1</string>
-    <string name="itemProdutoMais">+</string>
-    <string name="itemProdutoMenos">-</string>
-</resources>
