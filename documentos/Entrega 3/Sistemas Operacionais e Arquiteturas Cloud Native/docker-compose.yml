@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3001:3001"
+    env_file:
+      - .env
+    environment:
+      - DB_USER=brosselin
+      - DB_HOST=fecapayplus.postgres.database.azure.com
+      - DB_NAME=fecapayDB
+      - DB_PORT=5432
+      - DB_PASSWORD=@Gonnabedebes7
+    restart: unless-stopped
