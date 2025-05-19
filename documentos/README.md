@@ -1,31 +1,26 @@
 # Entregas do PI
 
-## Entrega 1
+
+### Programação Mobile
+
+<b>Felipe Oluwaseun</b>
 <br><br>
 
-### Disciplina 1
+### Testes e Qualidade de Software
 
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
+<b>Felipe Oluwaseun</b>
 <br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
+<b>João Brosselin</b>
 
-### Disciplina 2
+### UX
 
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
+<b>Marcella Santana</b>
 <br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
+<b>Thays Helyda Pontes</b>
 <br><br>
 
-### Disciplina 3
+### Sistemas Operacionais e Arquitetura em Cloud
 
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
+<b>Felipe Oluwaseun</b>
 <br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
+<b>João Brosselin</b>
