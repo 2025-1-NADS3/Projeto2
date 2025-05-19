@@ -4,7 +4,7 @@ services:
   app:
     build: .
     ports:
-      - "3001:3001"
+      - "5050:5050"
     env_file:
       - .env
     environment:
