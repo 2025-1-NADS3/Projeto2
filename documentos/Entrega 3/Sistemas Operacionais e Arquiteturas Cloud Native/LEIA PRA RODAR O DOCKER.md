@@ -16,7 +16,9 @@ cd nodeJS-Docker
 
 ```bash
 docker compose build
+```
 
-```bash docker compose up
-
+```
+bash docker compose up
+```
 ## Acesse http://localhost:5050/ para testar o servidor
