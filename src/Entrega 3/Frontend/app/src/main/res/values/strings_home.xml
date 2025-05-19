@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="homeTitle">Acadêmico</string>
+    <string name="homeTitle2">Para os Alunos</string>
+    
+    <string name="txtHomeBoletos">Boletos</string>
+    <string name="txtHomePapelaria">Papelaria</string>
+    <string name="txtHomeLivraria">Livraria</string>
+    <string name="txtHomeEstacionamento">Estacionar</string>
+    <string name="txtHomeAtletica">Atlética</string>
+    <string name="txtHomeCantina">Cantina</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="labelStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/kulim_park_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:background">@color/green</item>
+    </style>
+</resources>
